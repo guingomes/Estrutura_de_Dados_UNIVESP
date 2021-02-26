@@ -12,11 +12,12 @@ void inscrever(){
     cout << "Aprendizado da linguagem de programacao em C++" << endl;;
 }
 
-int somar(int x, int y){
+int somar(int &x, int &y){
     int t;
     t=1;
 
     x=30; //definindo o x sendo 30 não irá mudar o valor de a. Entretanto, irá interferir na soma.
+    //para modificar o valor de a será necessário declarar o & junto a variável. assim o a passa a ser 30.
 
     int soma;
     soma = x+y;
