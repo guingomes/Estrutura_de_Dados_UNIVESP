@@ -20,11 +20,11 @@ int main(){
 
     for(int i=0 ; i<5 ; i++){
         if (gastofamilia[i] < media){
-            cout << "O gasto da familia " << i+1 << " esta abaixo da media.\n";
+            cout << "O gasto da familia " << i+1 << " esta abaixo da media\n";
         }else if (gastofamilia[i] > media){
-            cout << "O gasto da familia " << i+1 << " esta acima da media.\n";
+            cout << "O gasto da familia " << i+1 << " esta acima da media\n";
         }else {
-            cout << "O gasto da familia " << i+1 << " esta na media.\n";
+            cout << "O gasto da familia " << i+1 << " esta na media\n";
         }
     }
     
